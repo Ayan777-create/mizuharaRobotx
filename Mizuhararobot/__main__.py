@@ -22,22 +22,22 @@ from Mizuhararobot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am chizuru ichinose a group manager bot.Rent me for your group if you want😃😃.
+Hi {}, my name is {Eren Yeager}! 
+I am Eren Yeager (The Founding Titan) a group management bot.Add me to your group make sure to give admin and help me to grow my Eldian Empire.
 You can find my list of available commands with /help.
 """
 
 
-BOT_IMG = "https://telegra.ph/file/eee3cb7efa205ca5b1262.mp4"
+BOT_IMG = "https://telegra.ph/file/ad04ef7d685f1145015f0.jpg"
 
 
 
 
 HELP_STRINGS = """
-Hello I'm  mizuhara from rent a girlfriend. Rent me for your grp to have fun there.You can have a look at the following for an idea of some of \
+Hello I'm  Eren Yeager from Paradise Island.You can have a look at the following for an idea of some of \
 the things I can help you with.
 
-*Main* commands available:[:.:](https://telegra.ph/file/8fbc5858ddd7eefe2fccf.jpg)
+*Main* commands available:[:.:](https://telegra.ph/file/ad04ef7d685f1145015f0.jpg)
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /settings:
@@ -158,15 +158,15 @@ def start(update, context):
                     [
                         InlineKeyboardButton(
                             text="Support Chat ",
-                            url="https://t.me/chizurusupport"),
+                            url="https://t.me/hindisubanimes"),
                         InlineKeyboardButton(
                             text="📍Updates ",
-                            url="https://t.me/chizuruupdates")
+                            url="https://t.me/hindisubanimenews")
                     ],
                     [
                         InlineKeyboardButton(
                             text="help",
-                            url="https://t.me/Chizurumanagementbot?start=help")
+                            url="https://t.me/ErenYeager7_botstart=help")
                     ]]))
 
 
@@ -492,7 +492,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID !=1392872370 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
